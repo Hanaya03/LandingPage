@@ -1,0 +1,11 @@
+.headerCont, .headerCont div{
+    border: red solid 1px;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-start;
+}
+
+.headerCont div{
+    justify-content: space-between;
+    gap: 20px;
+}
