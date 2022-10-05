@@ -1,11 +1,16 @@
 .headerCont, .headerCont div{
-    border: red solid 1px;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #F9FAF8;
     display: flex;
     justify-content: space-around;
     align-self: flex-start;
 }
 
 .headerCont div{
+    align-self: center;
     justify-content: space-between;
+    font-size: 18px;
     gap: 20px;
+    color: #E5E7EB;
 }
