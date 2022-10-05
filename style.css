@@ -1,16 +1,15 @@
-.headerCont, .headerCont div{
-    background-color: #1F2937;
-    font-size: 24px;
-    color: #F9FAF8;
+.greaterHeaderCont{
+    border: red 1px dashed;
     display: flex;
-    justify-content: space-around;
-    align-self: flex-start;
+    flex-direction: row;
+    justify-content: center;
 }
 
-.headerCont div{
-    align-self: center;
-    justify-content: space-between;
-    font-size: 18px;
-    gap: 20px;
-    color: #E5E7EB;
+.lesserHeaderCont{
+    border: black 1px solid;
+    display: flex;
+}
+
+.headerContRight, .headerContLeft{
+    border: red 1px dashed;
 }
