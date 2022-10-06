@@ -1,15 +1,51 @@
 .greaterHeaderCont{
-    border: red 1px dashed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;;
+    color: #E5E7eb;
+    background-color: #1F2937;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 .lesserHeaderCont{
-    border: black 1px solid;
     display: flex;
 }
 
 .headerContRight, .headerContLeft{
-    border: red 1px dashed;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 1 1 0;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.headerContLeftSubCont{
+    border: red 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-basis: 1 1 0;  
+}
+
+button{
+    width:fit-content;
+}
+
+.subtext{
+    width: 450px;
+}
+
+.mainText{
+    width: 400px;
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
 }
