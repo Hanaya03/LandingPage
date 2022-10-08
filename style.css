@@ -8,7 +8,6 @@ body{
 }
 
 .greaterHeaderCont{
-    border: red 1px solid;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     color: #a7a9ac;
@@ -23,21 +22,31 @@ body{
 }
 
 .lesserHeaderCont{
+    width: 70%;
     display: flex;
+    justify-content: space-between;
 }
 
 .headerContRight, .headerContLeft{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     flex-basis: 1 1 0;
 }
 
 .logo{
+    font-weight: bolder;
+    display: flex;
+    width: fit-content;
+    margin-top: 5%;
+    margin-bottom: 0;
     font-size: 24px;
     color: #f9faf8;
 }
 
 .headerContLeftSubCont{
+    margin-top: 25%;
+    height: fit-content;
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -46,14 +55,21 @@ body{
 
 button{
     width:fit-content;
+    background-color: #3882f6;
+    border-radius: 12px;
+    font-size: large;
+    color: white;
+    width: 30%;
+    height: 150%;
 }
 
 .subtext{
-    margin:0;
+    margin: 0 0 2% 0;
     width: 450px;
 }
 
 .mainText{
+    margin-top: 0%;
     margin-bottom: 0;
     width: 400px;
     font-weight: bolder;
@@ -63,6 +79,7 @@ button{
 
 .links{
     display: flex;
+    flex-direction: row-reverse;
     gap: 10px;
 }
 
