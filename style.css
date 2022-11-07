@@ -28,19 +28,17 @@
     }
 
     .lesserHeaderCont{
-        border: white solid 1px;
+        border: rgb(242, 255, 0) solid 1px;
         width: 70%;
         display: flex;
         flex-direction: column;
     }
 
     .headerContBot, .headerContTop{
-        justify-content: space-between;
-        border: white solid 1px;
+        border: red solid 1px;
         display: flex;
-        height: fit-content;
-        justify-content: flex-start;
-        flex-basis: 1 1 0;
+        justify-content: space-between;
+        align-items: center;
     }
 
     /*styling for headerContTop*/
@@ -61,7 +59,7 @@
             flex-direction: row-reverse;
             gap: 10px;
         }
-    /*styling for headerContLeft*/
+    /*styling for headerContTop*/
 
     /*styling for headerContBot*/
         button{
@@ -98,11 +96,11 @@
         }
 
         img{
-            margin: 23% 0 0 0;
-            width:100%;
-            height: 50%;
+            margin: 0 0 0 0;
+            width: 75%;
+            height: 100%;
         }
-    /*styling for headerContRight*/
+    /*styling for headerContBot*/
 
 /*end of header styling*/
 
