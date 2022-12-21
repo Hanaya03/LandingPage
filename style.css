@@ -29,20 +29,19 @@
 
     .lesserHeaderCont{
         /*border: rgb(242, 255, 0) solid 1px;*/
-        width: 70%;
+        width: 80%;
         display: flex;
         flex-direction: column;
     }
 
     .headerContBot, .headerContTop{
-        /*border: red dashed 1px;*/
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
     }
 
     .headerContBot{
-        gap: 20px;
+        justify-content: flex-end;
     }
     /*styling for headerContTop*/
     
@@ -72,25 +71,23 @@
             border-radius: 12px;
             font-size: large;
             color: white;
-            width: 30%;
-            height: 150%;
+            width: 200;
         }
 
         .subtext{
             margin: 0 0 0 0;
-            width: 450px;
         }
 
         .mainText{
             margin-top: 0%;
             margin-bottom: 0;
-            width: 400px;
             font-weight: bolder;
             font-size: 48px;
             color: #f9faf8;
         }
 
         .headerContBotSubCont{
+            width: 50%;
             gap: 10px;
             height: fit-content;
             display: flex;
@@ -99,7 +96,8 @@
         }
 
         img{
-            width: 75%;
+            width: 50%;
+            height: auto;
         }
     /*styling for headerContBot*/
 
