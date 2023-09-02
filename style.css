@@ -95,7 +95,7 @@
             justify-content: space-around;
         }
 
-        img{
+        .headerImg{
             width: 50%;
             height: auto;
         }
@@ -104,9 +104,28 @@
 /*end of header styling*/
 
 /*start of infor section styling*/
+
+
 .infoDiv{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
     height: 50%;
     background-color: white;
 }
 
+.imgTextOne{
+    border-width: 5px;
+    border-color: #1F2937;
+}
+
+.infoBodyImgs{
+    width: 30%;
+}
+
+.infoBody{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
 /*end of info section styling*/
