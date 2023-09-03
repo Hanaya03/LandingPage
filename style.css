@@ -107,23 +107,44 @@
 
 
 .infoDiv{
+    justify-content: center;
+    border: 2px solid red;
     align-items: center;
     flex-direction: column;
     display: flex;
-    height: 50%;
+    height: 30%;
     background-color: white;
 }
 
-.imgTextOne{
+.infoHeaderText{
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.imageNText{
+    width: fit-content;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
     border-width: 5px;
     border-color: #1F2937;
 }
 
 .infoBodyImgs{
+    border: 2px solid black;
     width: 30%;
 }
 
+.infoBodyImgText{
+    border: 2px solid black;
+}
+
 .infoBody{
+    border: 2px solid blue;
     justify-content: center;
     display: flex;
     flex-direction: row;
