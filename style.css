@@ -107,8 +107,8 @@
 
 
 .infoDiv{
-    justify-content: center;
-    border: 2px solid red;
+    justify-content: flex-start;
+    /* border: 2px solid red; */
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -123,28 +123,27 @@
 }
 
 .imageNText{
-    width: fit-content;
-    border: 2px solid black;
+    width: 250px;
+    /* border: 2px solid black; */
     align-items: center;
+    row-gap: 0px;
     justify-content: center;
-    gap: 0px;
     display: flex;
     flex-direction: column;
-    border-width: 5px;
-    border-color: #1F2937;
 }
 
 .infoBodyImgs{
-    border: 2px solid black;
-    width: 30%;
+    /* border: 2px solid black; */
+    width: 50%;
 }
 
 .infoBodyImgText{
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    vertical-align: bottom;
 }
 
 .infoBody{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     justify-content: center;
     display: flex;
     flex-direction: row;
